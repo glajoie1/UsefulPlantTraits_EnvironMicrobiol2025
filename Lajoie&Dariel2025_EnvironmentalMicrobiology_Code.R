@@ -10,7 +10,7 @@ library(Matrix)
 ## Importing data
 
 # Extraction data
-my_data_init <- read_xlsx("C:/Users/genev/Desktop/Recherche/Projets/2022_PlantTraits/Re-re-re-submission/Revisions/GitHub_SuppTab1.xlsx")
+my_data_init <- read_xlsx("~/GitHub_SuppTab1.xlsx")
 my_data_init<-my_data_init[,c(1:14)]
 my_data<-my_data_init
 
